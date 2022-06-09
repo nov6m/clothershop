@@ -127,5 +127,6 @@
   .textarea {
     height: 90px;
     resize: none;
+    width: 292px;
   }
 </style>

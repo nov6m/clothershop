@@ -8,7 +8,12 @@
       </div>
       <div class="header-menu__nav nav">
         <nav>
-          <router-link class="nav__item" :class="{active: article == isActive}" v-for="({name: name, path: path, article: article}, index) of menuLinks" :key="index" :to="path" exact-active-class="active">
+          <router-link class="nav__item"
+          :class="{active: article == isActive}"
+          v-for="({name: name, path: path, article: article}, index) of menuLinks"
+          :key="index"
+          :to="path"
+          exact-active-class="active">
             {{name}}
           </router-link>
         </nav>

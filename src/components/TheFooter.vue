@@ -27,6 +27,14 @@
     &__socials>a:not(:last-child) {
       margin-right: 20px;
     }
+    &__socials>a:hover {
+      transition: all 0.5s;
+      transform: scale(0.8);
+    }
+    &__socials>a {
+      transition: all 0.5s;
+      transform: scale(1);
+    }
 
     &__policy {
       font-size: 16px;
