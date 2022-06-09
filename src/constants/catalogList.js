@@ -15,7 +15,7 @@ export default [
   },
   {
     image: 'product3.jpg',
-    type: 'Блюки',
+    type: 'Брюки',
     description: '',
     price: '',
     left: 'false'
