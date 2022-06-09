@@ -34,6 +34,7 @@ export default {
     top: 10%;
     left: 35%;
     width: 30vw;
+    z-index: 9999;
   }
   img,
   .container {
